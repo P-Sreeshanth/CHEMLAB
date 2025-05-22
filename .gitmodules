@@ -1,0 +1,4 @@
+[submodule "client"]
+    path = client
+    url = https://github.com/P-Sreeshanth/CHEMLAB.git
+    branch = main 
