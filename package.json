@@ -9,7 +9,7 @@
     "client": "cd client && npm start",
     "dev:full": "concurrently \"npm run dev\" \"npm run client\"",
     "build": "cd client && npm install && npm run build",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build && cd client && npm run build"
   },
   "dependencies": {
     "@mui/icons-material": "^7.1.0",
